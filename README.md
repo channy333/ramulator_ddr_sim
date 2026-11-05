@@ -1,5 +1,5 @@
 # Ramulator 2.1 User Guide
-
+# jichan memo
 - [1. Overview](#1-overview)
 - [2. Using Ramulator 2.1](#2-using-ramulator-21)
 - [3. Your First Run](#3-your-first-run)

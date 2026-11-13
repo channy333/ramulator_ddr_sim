@@ -38,3 +38,28 @@ sweep_log.txt
 !visualizer/package.json
 !visualizer/package-lock.json
 !visualizer/tsconfig.json
+
+# Local environments, outputs, and extracted setup bundles
+/gpt2_export_venv/
+/results/
+/tools/
+/gpt2_refsb_update/
+/ramulator_gem5_starter/
+
+# Compiled workload binaries
+/gpt2_cpu_port/bin/
+/gpt2_cpu_port/build/
+/workloads/**/bin/
+/workloads/**/build/
+
+# Model weights
+/workloads/**/*.bin
+/workloads/**/*.pt
+/workloads/**/*.pth
+/workloads/**/*.safetensors
+/workloads/**/*.onnx
+/workloads/**/*.npz
+
+# Keep workload/configuration JSON files
+!/gpt2_cpu_port/**/*.json
+!/workloads/**/*.json

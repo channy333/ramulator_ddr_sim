@@ -5,9 +5,10 @@
 # Regenerate:   python -m ramulator codegen
 ###############################################################################
 from .all_bank import AllBank
+from .ddr5_same_bank import DDR5SameBank
 from .hbm34_per_bank_refresh import HBM34PerBankRefresh
 from .hbm_per_bank_refresh import HBMPerBankRefresh
 from .no_refresh import NoRefresh
 from .per_bank import PerBank
 
-__all__ = ['AllBank', 'HBM34PerBankRefresh', 'HBMPerBankRefresh', 'NoRefresh', 'PerBank']
+__all__ = ['AllBank', 'DDR5SameBank', 'HBM34PerBankRefresh', 'HBMPerBankRefresh', 'NoRefresh', 'PerBank']

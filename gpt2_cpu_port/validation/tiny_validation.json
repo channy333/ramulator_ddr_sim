@@ -1,0 +1,30 @@
+{
+  "functional_checks": [
+    {
+      "mode": "hidden",
+      "blocks": 1,
+      "max_abs_error": 8.940696716308594e-08
+    },
+    {
+      "mode": "hidden",
+      "blocks": 2,
+      "max_abs_error": 1.1920928955078125e-07
+    },
+    {
+      "mode": "logits",
+      "blocks": 2,
+      "max_abs_error": 9.685754776000977e-08
+    }
+  ],
+  "causal_prefix_check": "pass",
+  "invalid_token_rejected": true,
+  "trained_checkpoint_validation": false,
+  "static_x86_64_native_build": "pass",
+  "address_undefined_sanitizers": "pass",
+  "sanitizer_note": "LeakSanitizer disabled because the execution environment uses ptrace; no leak-check claim.",
+  "python_syntax": "pass",
+  "gem5_integration_run": false,
+  "optional_m5_roi_run": false,
+  "huggingface_export_run": false,
+  "date": "2026-11-10"
+}

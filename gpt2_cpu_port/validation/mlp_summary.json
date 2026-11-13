@@ -1,0 +1,34 @@
+{
+  "workload": "mlp_smoke 1",
+  "cpu": "BaseTimingSimpleCPU",
+  "cache_bytes": {
+    "L1I": 32768,
+    "L1D": 32768,
+    "L2": 262144
+  },
+  "gem5_ticks": 557677431,
+  "simulated_ms": 0.557677431,
+  "sim_instructions": 1090566,
+  "ipc": 0.651198,
+  "memory_cycles": 1340571,
+  "tCK_ps": 416,
+  "read_requests": 3893,
+  "write_requests": 13,
+  "REFab": 142,
+  "REFsb": 0,
+  "PREab": 114,
+  "expected_refresh_count": 142,
+  "avg_read_latency_cycles": 88.1567,
+  "avg_read_latency_ns": 36.6731872,
+  "row_hit_fraction": 0.9045058883768561,
+  "prefetch_read_requests": 2783,
+  "prefetch_fraction_of_memory_reads": 0.7148728487027999,
+  "inference_only_roi": false,
+  "sources": [
+    "config(1).ini",
+    "stats(1).txt",
+    "ramulator_stats(1).yaml",
+    "command_counts(1).csv",
+    "commands.csv(1).ch0"
+  ]
+}

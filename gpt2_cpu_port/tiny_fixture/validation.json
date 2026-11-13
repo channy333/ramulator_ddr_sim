@@ -1,0 +1,22 @@
+{
+  "functional_checks": [
+    {
+      "mode": "hidden",
+      "blocks": 1,
+      "max_abs_error": 8.940696716308594e-08
+    },
+    {
+      "mode": "hidden",
+      "blocks": 2,
+      "max_abs_error": 1.1920928955078125e-07
+    },
+    {
+      "mode": "logits",
+      "blocks": 2,
+      "max_abs_error": 9.685754776000977e-08
+    }
+  ],
+  "causal_prefix_check": "pass",
+  "invalid_token_rejected": true,
+  "trained_checkpoint_validation": false
+}

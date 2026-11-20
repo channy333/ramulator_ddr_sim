@@ -63,3 +63,8 @@ sweep_log.txt
 # Keep workload/configuration JSON files
 !/gpt2_cpu_port/**/*.json
 !/workloads/**/*.json
+
+# Local experiment backups and results
+/.cap_refresh_backups/
+/.cap_restore_backups/
+/results/

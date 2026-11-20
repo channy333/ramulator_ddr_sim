@@ -1,0 +1,13 @@
+case,policy,cap,completion_ck,requests,ACT,effective_bank_precharges,read_latency_ck,REFsb,selected_cap_ready_banks,slots_with_cap_candidate,cap_pre_cancelled,cap_reopen_then_refresh_close
+long_row_hits,open_rr,16,19228,1200,54,52,88.168335,16,0,0,0,0
+long_row_hits,cap_rr,16,19282,1200,107,105,118.10833,16,0,0,0,48
+long_row_hits,cap_rr_share,16,19282,1200,107,105,118.10833,16,0,0,0,48
+long_row_hits,cap_leastq,16,19282,1200,100,93,72.900002,16,0,0,0,43
+long_row_hits,cap_closed,16,19282,1200,100,90,76.299164,16,0,0,0,40
+long_row_hits,cap_aware,16,19282,1200,100,90,76.299164,16,0,0,0,40
+row_conflicts,open_rr,16,19303,1200,1200,1168,132.160004,16,0,0,0,0
+row_conflicts,cap_rr,16,19303,1200,1200,1168,132.160004,16,0,0,0,0
+row_conflicts,cap_rr_share,16,19303,1200,1200,1168,132.160004,16,0,0,0,0
+row_conflicts,cap_leastq,16,19311,1200,1200,1169,132.169998,16,0,0,0,0
+row_conflicts,cap_closed,16,19295,1200,1200,1168,132.16333,16,0,0,0,0
+row_conflicts,cap_aware,16,19295,1200,1200,1168,132.16333,16,0,0,0,0

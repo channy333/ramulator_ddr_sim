@@ -68,3 +68,9 @@ sweep_log.txt
 /.cap_refresh_backups/
 /.cap_restore_backups/
 /results/
+
+/workloads/gpt2/models/
+/gpt2_export_venv/
+/results/
+/.cap_refresh_backups/
+/.cap_restore_backups/
